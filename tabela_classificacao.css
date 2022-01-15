@@ -1,0 +1,157 @@
+body {
+  background: #525589;
+  color: #ffffff;
+  text-align: center;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.titulo__formulario,
+.titulo {
+  color: #3e4067;
+  margin: 2px;
+}
+
+.acoes__adicionar__jogador,
+.acoes__resetar__pontos,
+.acoes__remover__jogador,
+.ganhador {
+  background: #e5e5e5;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.acoes__formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input {
+  background: #3e4067;
+  color: #e5e5e5;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+
+.input::placeholder {
+  color: #e5e5e5;
+}
+
+.botao__roxo {
+  background: #525589;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.select__jogadores {
+  background: #3e4067;
+  color: #e5e5e5;
+  padding: 5px;
+}
+
+.tabela__classificao {
+  background: #e5e5e5;
+  padding: 10px;
+  border-radius: 5px;
+  color: #525589;
+  font-size: 20px;
+}
+
+.jogador {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.jogador .avatar__jogador {
+  width: 50px;
+  border-radius: 50px;
+}
+
+button:disabled,
+button[disabled] {
+  background: #a9a5a4;
+  cursor: default;
+}
+
+.mensagem {
+  border-radius: 5px;
+  padding: 5px;
+  color: #e5e5e5;
+}
+
+.erro {
+  background-color: #902f37;
+}
+
+.sucesso {
+  opacity: 0.8;
+  background-color: #328d46;
+}
+
+.ganhador {
+  color: #3e4067;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ganhador p {
+  padding: 1px;
+  margin: 1px;
+}
+#avatar__ganhador {
+  width: 50px;
+}
+
+.titulo__ganhador {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+#nome__ganhador {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#imagens__avatares__opcoes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#imagens__avatares__opcoes .input__radio__imagens__avatares {
+  display: none;
+}
+
+#imagens__avatares__opcoes .label__imagens__avatares {
+  cursor: pointer;
+}
+
+#imagens__avatares__opcoes label .imagem__imagens__avatares {
+  width: 50px;
+}
+
+#imagens__avatares__opcoes label .imagem__imagens__avatares:hover {
+  transform: scale(1.2);
+}
+
+#imagens__avatares__opcoes input[type="radio"]:checked + label {
+  padding: 2px;
+  border-bottom: 5px solid #525589;
+}
