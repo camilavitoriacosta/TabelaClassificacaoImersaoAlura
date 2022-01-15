@@ -1,4 +1,4 @@
-# Imersao Dev - Aula 06: Tabela Classificao
+# Imersao Dev - Aula 06: Tabela Classificação
 Projeto feito para treinar HTML, CSS e JavaScript melhorando o projeto desenvolvido na aula 06 da Imersão Dev da Alura que ocorreu nos dias 13/09/2021 a 24/09/2021.
 
 
